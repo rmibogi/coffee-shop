@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Jost";
+    src: local("Jost"), 
+         local("Jost-Regular"), 
+         url("./Jost-Regular.woff2") format("woff2");
+  }
+
+@font-face {
+    font-family: "Jost";
+    src: local("Jost"), 
+         local("Jost-Bold"), 
+         url("./Jost-Bold.woff2") format("woff2");
+  }
+  
+@font-face {
+    font-family: "Jost";
+    src: local("Jost"), 
+         local("Jost-SemiBold"), 
+         url("./Jost-SemiBold.woff2") format("woff2");
+  }
+
+@font-face {
+    font-family: "Jost";
+    src: local("Jost"), 
+         local("Jost-ExtraBold"), 
+         url("./Jost-ExtraBold.woff2") format("woff2");
+  }

@@ -1,7 +1,6 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 :root {
     --container-width: 1270px;
     --container-padding: 15px;
@@ -776,11 +775,19 @@ right: 0;
     .header {
         min-width: var(--container-width);
     }
+
+    .card__container {
+        width: 480px;
+    }
 }
 
 @media (max-width: 992px) {
     .container {
         min-width: 1270px;
+    }
+
+    .card__container {
+        width: 480px;
     }
 }
 
